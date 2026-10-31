@@ -1,0 +1,1 @@
+require('http').createServer((req, res) => res.end('OK')).listen(8080, '0.0.0.0');

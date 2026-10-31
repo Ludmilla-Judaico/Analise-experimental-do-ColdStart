@@ -46,3 +46,4 @@ perf --version
 ```
 - Ubuntu xx.LTS
   
+## Para rodar o projeto
