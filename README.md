@@ -47,3 +47,20 @@ perf --version
 - Ubuntu xx.LTS
   
 ## Para rodar o projeto
+- Abra um terminal e entre na pasta:
+```
+cd ~/Analise-experimental-do-ColdStart/experimento/
+```
+- Execute build_all.sh para criar as imagens dos apps:
+```
+./build_all.sh
+```
+- Após as imagens terem sido corretamente criadas, execute:
+```
+sudo taskset -c 0,1 python3 controller.py
+```
+- Execute as requisições pelo JMeter e veja o arquivo controller.csv ser criado com os resultados das requisições na pasta 
+```
+ ~/Analise-experimental-do-ColdStart/experimento/results/
+```
+- Para mais detalhes de como executar as requisições pelo JMeter, leia [README.md](experimento/jmeter/README.md)
