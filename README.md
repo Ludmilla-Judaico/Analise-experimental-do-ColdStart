@@ -12,7 +12,7 @@
 | Cache de E/S do hospedeiro | Desmarcado | Desmarcado |
 | Virtualizador | VirtualBox | VirtualBox atualizado | 
 
-### Sistema operacional e kernel
+#### Sistema operacional e kernel
 
 | Item | Requisito | Utilizado |
 |---|---|---|
@@ -21,7 +21,7 @@
 | Controle de grupos | cgroup v2 (`cgroup2fs`) | cgroup v2, controladores `cpuset cpu io memory ...` |
 | Acesso | root (`sudo`), necessário para o `drop_caches` | `sudo` |
 
-### Software do hospedeiro (instalado na VM)
+#### Software do hospedeiro (instalado na VM)
 
 | Software | Versão | Função no experimento |
 |---|---|---|
